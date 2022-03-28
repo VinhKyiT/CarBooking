@@ -14,6 +14,9 @@
 		20DA40E65770BD13569F024E /* libPods-CarBooking-CarBookingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4692E70285B2B5ED3E81A89 /* libPods-CarBooking-CarBookingTests.a */; };
 		5EF02B37E8956E33D8FCA709 /* libPods-CarBooking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6514F81186AAE34B08F3CD3C /* libPods-CarBooking.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A96DD00627F1FF0000EB10DD /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A96DCFF627F1FEFF00EB10DD /* Feather.ttf */; };
+		A96DD00827F1FF0000EB10DD /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A96DCFF827F1FEFF00EB10DD /* AntDesign.ttf */; };
+		A96DD00C27F1FF0000EB10DD /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A96DCFFC27F1FF0000EB10DD /* Ionicons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CarBooking/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A3D402F4FC88445EB562CF9 /* Pods-CarBooking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarBooking.debug.xcconfig"; path = "Target Support Files/Pods-CarBooking/Pods-CarBooking.debug.xcconfig"; sourceTree = "<group>"; };
 		A4692E70285B2B5ED3E81A89 /* libPods-CarBooking-CarBookingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarBooking-CarBookingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96DCFF627F1FEFF00EB10DD /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		A96DCFF827F1FEFF00EB10DD /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		A96DCFFC27F1FF0000EB10DD /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
 		D58482A0D024FA235B7C542A /* Pods-CarBooking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarBooking.release.xcconfig"; path = "Target Support Files/Pods-CarBooking/Pods-CarBooking.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -116,6 +122,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				A96DCFF827F1FEFF00EB10DD /* AntDesign.ttf */,
+				A96DCFF627F1FEFF00EB10DD /* Feather.ttf */,
+				A96DCFFC27F1FF0000EB10DD /* Ionicons.ttf */,
 				13B07FAE1A68108700A75B9A /* CarBooking */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* CarBookingTests */,
@@ -145,7 +154,6 @@
 				281A67BA358B256B1DE7F38D /* Pods-CarBooking-CarBookingTests.debug.xcconfig */,
 				15C3056853C7E796365BB769 /* Pods-CarBooking-CarBookingTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +253,9 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A96DD00627F1FF0000EB10DD /* Feather.ttf in Resources */,
+				A96DD00827F1FF0000EB10DD /* AntDesign.ttf in Resources */,
+				A96DD00C27F1FF0000EB10DD /* Ionicons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +498,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CarBooking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -512,6 +524,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = CarBooking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
