@@ -21,13 +21,14 @@ const HomeScreen = () => {
           resizeMode="contain"
         />
         <GooglePlacesAutocomplete
-          placeholder="Search"
+          placeholder="Tìm kiếm địa điểm..."
           styles={{
             container: {
               flex: 0,
             },
             textInput: {
               fontSize: 18,
+              color: 'black',
             },
           }}
           onPress={(data, details = null) => {
