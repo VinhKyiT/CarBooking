@@ -1,11 +1,11 @@
-import { SafeAreaView, Text, View, Image } from 'react-native';
+import { GOOGLE_API_KEY } from '@env';
 import React from 'react';
+import { Image, SafeAreaView, View } from 'react-native';
+import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
+import { useDispatch } from 'react-redux';
 import tw from 'twrnc';
 import NavOptions from '../components/NavOptions';
-import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
-import { GOOGLE_API_KEY } from '@env';
-import { useDispatch } from 'react-redux';
-import { setOrigin, setDestination } from '../redux/slices/navSlice';
+import { setDestination, setOrigin } from '../redux/slices/navSlice';
 
 const HomeScreen = () => {
   const dispatch = useDispatch();
@@ -49,6 +49,7 @@ const HomeScreen = () => {
           query={{
             key: GOOGLE_API_KEY,
             language: 'vi',
+            components: 'country:vn',
           }}
         />
         <NavOptions />

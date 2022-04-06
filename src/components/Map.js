@@ -11,7 +11,7 @@ const Map = () => {
     <MapView
       //   provider={PROVIDER_GOOGLE} // remove if not using Google Maps
       style={styles.map}
-      mapType="mutedStandard"
+      mapType="standard"
       region={{
         latitude: origin.location.lat,
         longitude: origin.location.lng,
